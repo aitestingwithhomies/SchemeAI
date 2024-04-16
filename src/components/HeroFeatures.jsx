@@ -82,11 +82,11 @@ export default function HeroFeatures() {
           </h3>
 
           <p className="text-slate-400">
-            MIT licensed. Use LangUI components in both personal and commericial
+            MIT licensed. Use SchemeAI components in both personal and commericial
             projects for free. Feeling generous?{' '}
             <Link
               className="font-semibold underline decoration-blue-600 transition-colors hover:text-slate-50"
-              href="https://github.com/ahmadbilaldev/langui"
+              href="https://github.com/ahmadbilaldev/SchemeAI"
               target="_blank"
             >
               Star on GitHub

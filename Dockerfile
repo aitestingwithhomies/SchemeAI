@@ -2,7 +2,7 @@
 FROM docker.io/node:alpine3.17
 
 # Maintainer information
-MAINTAINER tanwenyang@aliyun.com
+MAINTAINER youremailhere
 
 # Copy the vue-color-avatar file from the local directory to the /app directory inside the container
 COPY . /app

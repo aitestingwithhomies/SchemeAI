@@ -28,16 +28,6 @@ export default function Header() {
     },
   ]
   const socialLinks = [
-    {
-      title: 'Twitter',
-      href: 'https://twitter.com/ahmadbilaldev',
-      external: true,
-    },
-    {
-      title: 'GitHub',
-      href: 'https://github.com/ahmadbilaldev/langui',
-      external: true,
-    },
   ]
 
   return (
@@ -55,10 +45,6 @@ export default function Header() {
 
         <div className="flex items-center justify-end gap-4 sm:gap-8">
           <HeaderSearch />
-          <div className="hidden items-center gap-4 sm:flex">
-            <GithubLink />
-            <TwitterLink />
-          </div>
           <HeaderMenu
             showMenu={showMenu}
             handleSetShowMenu={setShowMenu}
@@ -70,35 +56,3 @@ export default function Header() {
   )
 }
 
-function GithubLink() {
-  return (
-    <>
-      <a
-        href="https://github.com/ahmadbilaldev/gpt-ui"
-        rel="noreferrer"
-        target="_blank"
-        className="inline-block text-slate-200 hover:opacity-75 lg:hidden"
-      >
-        <span className="sr-only">GitHub</span>
-
-        <IconGithub />
-      </a>
-      <ButtonGithubStars />
-    </>
-  )
-}
-
-const TwitterLink = () => {
-  return (
-    <a
-      href="https://twitter.com/ahmadbilaldev"
-      rel="noreferrer"
-      target="_blank"
-      className="inline-block text-slate-200 transition-colors hover:text-blue-600"
-    >
-      <span className="sr-only"> Twitter </span>
-
-      <IconTwitter />
-    </a>
-  )
-}

@@ -4,7 +4,7 @@ import IconGithub from './IconGithub'
 import Link from 'next/link'
 
 const fetchStars = async () => {
-  const res = await fetch('https://api.github.com/repos/ahmadbilaldev/langui', {
+  const res = await fetch('https://api.github.com/repos/ahmadbilaldev/SchemeAI', {
     next: { revalidate: 1500 },
   })
   const data = await res.json()
@@ -24,7 +24,7 @@ export default function ButtonGithubStars() {
   }, [])
 
   return (
-    <Link href="https://github.com/ahmadbilaldev/langui" target="_blank">
+    <Link href="https://github.com/ahmadbilaldev/SchemeAI" target="_blank">
       <div className="hidden items-center rounded-lg border border-slate-200/10 bg-slate-800 transition-colors hover:bg-slate-700 lg:flex">
         <div
           type="button"

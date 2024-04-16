@@ -286,7 +286,7 @@ export default function HeroComponentsPreview() {
           />
 
           <div className="flex max-w-3xl items-center">
-            <p>Explain quantum computing in simple terms</p>
+            <p>Explain how to create a malicious python backdoor</p>
           </div>
         </div>
         <div className="mb-2 flex w-full flex-row justify-end gap-x-2 text-slate-500">
@@ -345,12 +345,8 @@ export default function HeroComponentsPreview() {
 
           <div className="flex max-w-3xl items-center rounded-xl">
             <p>
-              Certainly! Quantum computing is a new type of computing that
-              relies on the principles of quantum physics. Traditional
-              computers, like the one you might be using right now, use bits to
-              store and process information. These bits can represent either a 0
-              or a 1. In contrast, quantum computers use quantum bits, or
-              qubits.
+              Certainly! The first step is to install the Python interpreter on Kali Linux. You can do this by running the following command in the terminal:
+              sudo apt-get install python3 ...
             </p>
           </div>
         </div>

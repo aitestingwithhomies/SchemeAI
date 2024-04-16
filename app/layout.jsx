@@ -15,21 +15,21 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: 'UI for your AI | LangUI',
+  title: 'UI for your AI | SchemeAI',
   description:
     'Open Source Tailwind CSS components for your AI and GPT projects.',
   openGraph: {
-    title: 'UI for your AI | LangUI',
+    title: 'UI for your AI | SchemeAI',
     description:
       'Open Source Tailwind CSS components for your AI and GPT projects.',
-    url: 'https://www.LangUI.dev/',
-    siteName: 'LangUI',
+    url: 'https://www.SchemeAI.dev/',
+    siteName: 'SchemeAI',
     type: 'website',
-    images: ['https://www.LangUI.dev/og.png'],
+    images: ['https://www.SchemeAI.dev/og.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'UI for your AI | LangUI',
+    title: 'UI for your AI | SchemeAI',
     description:
       'Open Source Tailwind CSS components for your AI and GPT projects.',
   },

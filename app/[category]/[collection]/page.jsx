@@ -17,19 +17,19 @@ export async function generateMetadata({ params }) {
   const { collectionData } = await getCollection(params)
 
   return {
-    title: `${collectionData.seo.title} | LangUI`,
+    title: `${collectionData.seo.title} | SchemeAI`,
     description: collectionData.seo.description,
     openGraph: {
-      title: `${collectionData.seo.title} | LangUI`,
+      title: `${collectionData.seo.title} | SchemeAI`,
       description: collectionData.seo.description,
-      url: 'https://www.LangUI.dev/',
-      siteName: 'LangUI',
+      url: 'https://www.SchemeAI.dev/',
+      siteName: 'SchemeAI',
       type: 'website',
-      image: 'https://www.LangUI.dev/og.png',
+      image: 'https://www.SchemeAI.dev/og.png',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${collectionData.seo.title} | LangUI`,
+      title: `${collectionData.seo.title} | SchemeAI`,
       description: collectionData.seo.description,
     },
   }

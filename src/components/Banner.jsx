@@ -28,7 +28,7 @@ export default function Banner() {
         >
           <div className="mx-auto flex items-center">
             <Link
-              href="https://github.com/ahmadbilaldev/langui"
+              href="https://github.com/ahmadbilaldev/SchemeAI"
               target="_blank"
               onClick={() => setToggleBanner(false)}
               className="group flex items-center text-sm font-normal text-slate-400"
@@ -36,7 +36,7 @@ export default function Banner() {
               <span>
                 Stars are like little virtual hugs that keep us going.
                 <span className="ml-0 flex items-center text-sm font-medium text-blue-600 md:ml-1 md:inline-flex">
-                  Star LangUI on GitHub
+                  Star SchemeAI on GitHub
                   <svg
                     className="ml-2 h-3 w-3 transform transition-transform duration-200 ease-out group-hover:translate-x-1"
                     aria-hidden="true"

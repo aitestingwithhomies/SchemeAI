@@ -1,5 +1,5 @@
 {
-  "name": "langui",
+  "name": "SchemeAI",
   "version": "1.0.0",
   "scripts": {
     "build": "next build",
@@ -18,16 +18,17 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.7",
-    "autoprefixer": "^10.4.12",
+    "autoprefixer": "^10.4.19",
     "eslint": "8.11.0",
     "eslint-config-next": "^13.3.1",
     "fast-glob": "^3.2.12",
     "gray-matter": "^4.0.3",
     "next-mdx-remote": "^4.0.0",
     "next-sitemap": "^3.1.20",
-    "postcss": "^8.4.16",
+    "postcss": "^8.4.38",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
     "prismjs": "^1.27.0",

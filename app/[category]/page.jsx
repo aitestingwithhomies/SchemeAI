@@ -10,19 +10,19 @@ export async function generateMetadata({ params }) {
   const { categoryData } = await getCategory(params)
 
   return {
-    title: `AI Tailwind ${categoryData.title} | LangUI`,
+    title: `AI Tailwind ${categoryData.title} | SchemeAI`,
     description: categoryData.description,
     openGraph: {
-      title: `AI Tailwind ${categoryData.title} | LangUI`,
+      title: `AI Tailwind ${categoryData.title} | SchemeAI`,
       description: categoryData.description,
-      url: 'https://www.LangUI.dev/',
-      siteName: 'LangUI',
+      url: 'https://www.SchemeAI.dev/',
+      siteName: 'SchemeAI',
       type: 'website',
-      image: 'https://www.LangUI.dev/og.png',
+      image: 'https://www.SchemeAI.dev/og.png',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `AI Tailwind ${categoryData.title} | LangUI`,
+      title: `AI Tailwind ${categoryData.title} | SchemeAI`,
       description: categoryData.description,
     },
   }
